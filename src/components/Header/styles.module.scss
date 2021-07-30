@@ -51,4 +51,9 @@
             }
         }
     }
+
+    //estilo do botão colocado aqui porque essa margin só precisa ser aplicada se o botão estiver dentro do header
+    button {
+        margin-left: auto; // máximo de margin que puder
+    }
 }
