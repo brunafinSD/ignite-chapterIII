@@ -19,3 +19,5 @@ configurações faunaDB
 - criar key e colocá-la em .env.local
 - criar collection
 - criar index
+
+criar variável de ambiente para JWT
