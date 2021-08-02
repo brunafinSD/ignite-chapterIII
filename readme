@@ -12,3 +12,10 @@ configurações OAuth:
 - criar novo produto e preencher os campos
     importante: em autorizarion callback url: http://localhost:3000/api/auth/callback
 - colocar as novas chaves em .env.local:  GITHUB_CLIENT_ID e GITHUB_CLIENT_SECRET
+
+
+configurações faunaDB
+- criar database
+- criar key e colocá-la em .env.local
+- criar collection
+- criar index
