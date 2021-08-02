@@ -5,3 +5,10 @@ configuração do stripe:
 - salvar produto
 - copiar chave secreta e colocar no arquivo .env.local
 - customizar aparencia colocando as cores da aplicação
+
+configurações OAuth:
+- conta no github
+- developer settings
+- criar novo produto e preencher os campos
+    importante: em autorizarion callback url: http://localhost:3000/api/auth/callback
+- colocar as novas chaves em .env.local:  GITHUB_CLIENT_ID e GITHUB_CLIENT_SECRET
