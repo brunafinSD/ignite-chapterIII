@@ -20,4 +20,9 @@ configurações faunaDB
 - criar collection
 - criar index
 
-criar variável de ambiente para JWT
+instalar Stripe CLI
+- no terminar:
+- stripe login
+- stripe listen --forward-to localhost:3000/api/webhooks
+- cartão teste: 4242 4242 4242 4242
+
