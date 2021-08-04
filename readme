@@ -17,8 +17,13 @@ configurações OAuth:
 configurações faunaDB
 - criar database
 - criar key e colocá-la em .env.local
-- criar collection
-- criar index
+- criar collection users
+- criar index user_by_email
+  terms: data.email
+- criar index user_by_stripe_customer_id em collection users
+  terms: data.stripe_customer_id
+- criar collection subscriptions
+
 
 instalar Stripe CLI
 - no terminar:
