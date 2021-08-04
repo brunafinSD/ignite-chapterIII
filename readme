@@ -23,6 +23,8 @@ configurações faunaDB
 - criar index user_by_stripe_customer_id em collection users
   terms: data.stripe_customer_id
 - criar collection subscriptions
+- criar index subscription_by_id na collection subscriptions
+  terms: data.id
 
 
 instalar Stripe CLI
@@ -32,4 +34,7 @@ instalar Stripe CLI
 - cartão teste: 4242 4242 4242 4242
 
 webhook stripe
+- rodar webhook:
+  - stripe login
+  - stripe listen --forward-to localhost:3000/api/webhooks
 - criar variável de ambiente com código secreto do webhook da aplicação terceira
