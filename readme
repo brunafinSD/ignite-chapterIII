@@ -38,3 +38,11 @@ webhook stripe
   - stripe login
   - stripe listen --forward-to localhost:3000/api/webhooks
 - criar variável de ambiente com código secreto do webhook da aplicação terceira
+
+Prismic
+- criar conta
+- criar tipo de documento
+- criar posts
+- colocar conteudo como privado
+- gerar código token
+- criar variável de ambiente PRISMIC_ACCESS_TOKEN com código gerado pelo Prismic
