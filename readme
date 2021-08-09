@@ -25,6 +25,10 @@ configurações faunaDB
 - criar collection subscriptions
 - criar index subscription_by_id na collection subscriptions
   terms: data.id
+- criar index subscription_by_user_ref na collection subscriptions
+  terms: data.userId
+- criar index subscription_by_status na collection subscriptions
+  terms: data.status
 
 
 instalar Stripe CLI
