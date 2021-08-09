@@ -1,3 +1,4 @@
+![Screenshot](ignews.png)
 configuração do stripe:
 - criar conta no stripe.com
 - criar produto subscription com preço recorrente de 9.90
