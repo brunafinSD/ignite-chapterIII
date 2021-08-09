@@ -1,6 +1,6 @@
+![](/public/images/ignews.png)
+
 configuração do stripe:
-![image](https://github.com/brunafinSD/ignite-chapterIII/blob/main/ignews.png?raw=true)
-![ScreenShot](https://github.com/brunafinSD/ignite-chapterIII/blob/main/ignews.png?raw=true)
 - criar conta no stripe.com
 - criar produto subscription com preço recorrente de 9.90
 - salvar produto
