@@ -1,5 +1,4 @@
-![ScreenShot](https://raw.github.com/brunafinSD/ignite-chapterIII/blob/main/public/images/ignews.png)
-
+![ScreenShot](https://github.com/brunafinSD/ignite-chapterIII/blob/main/public/images/ignews.png?raw=true})
 
 configuração do stripe:
 - criar conta no stripe.com
