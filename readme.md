@@ -1,4 +1,6 @@
-![Screenshot](ignews.png)
+![ScreenShot](https://raw.github.com/brunafinSD/ignite-chapterIII/blob/main/public/images/ignews.png)
+
+
 configuração do stripe:
 - criar conta no stripe.com
 - criar produto subscription com preço recorrente de 9.90
