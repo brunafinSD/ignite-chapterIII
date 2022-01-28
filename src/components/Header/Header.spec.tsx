@@ -24,6 +24,9 @@ describe('Header component', () => {
    render(
       <Header />
     )
+
+    // abre no navegador um painel de ajuda
+    screen.logTestingPlaygroundURL()
     
     expect(screen.getByText('Home')).toBeInTheDocument()
     expect(screen.getByText('Posts')).toBeInTheDocument()
