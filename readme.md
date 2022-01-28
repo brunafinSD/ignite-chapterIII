@@ -52,5 +52,3 @@ Prismic
 - gerar código token
 - criar variável de ambiente PRISMIC_ACCESS_TOKEN com código gerado pelo Prismic
 - criar variável de ambiente PRISMIC_ENDPOINT com endereço da aplicação no prismic
-
-acessar em: https://ignite-chapter-iii.vercel.app/
